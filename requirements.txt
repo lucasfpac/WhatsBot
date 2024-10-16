@@ -17,6 +17,7 @@ chroma-hnswlib==0.7.6
 chromadb==0.5.12
 click==8.1.7
 coloredlogs==15.0.1
+dataclasses-json==0.6.7
 Deprecated==1.2.14
 distro==1.9.0
 durationpy==0.9
@@ -48,6 +49,7 @@ jsonpointer==3.0.0
 kubernetes==31.0.0
 langchain==0.3.3
 langchain-chroma==0.1.4
+langchain-community==0.3.2
 langchain-core==0.3.10
 langchain-groq==0.2.0
 langchain-huggingface==0.1.0
@@ -55,11 +57,13 @@ langchain-text-splitters==0.3.0
 langsmith==0.1.133
 markdown-it-py==3.0.0
 MarkupSafe==3.0.0
+marshmallow==3.22.0
 mdurl==0.1.2
 mmh3==5.0.1
 monotonic==1.6
 mpmath==1.3.0
 multidict==6.1.0
+mypy-extensions==1.0.0
 networkx==3.2.1
 numpy==1.26.4
 oauthlib==3.2.2
@@ -84,8 +88,10 @@ protobuf==4.25.5
 pyasn1==0.6.1
 pyasn1_modules==0.4.1
 pydantic==2.9.2
+pydantic-settings==2.5.2
 pydantic_core==2.23.4
 Pygments==2.18.0
+pypdf==5.0.1
 PyPika==0.48.9
 pyproject_hooks==1.2.0
 python-dateutil==2.9.0.post0
@@ -116,6 +122,7 @@ torch==2.4.1
 tqdm==4.66.5
 transformers==4.45.2
 typer==0.12.5
+typing-inspect==0.9.0
 typing_extensions==4.12.2
 urllib3==2.2.3
 uvicorn==0.31.1

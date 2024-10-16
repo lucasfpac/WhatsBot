@@ -1,2 +1,7 @@
 .env
 venv
+.media
+.sessions
+__pycache__/
+chroma_data
+# rag/data

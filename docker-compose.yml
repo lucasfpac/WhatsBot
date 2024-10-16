@@ -1,11 +1,13 @@
-version: '3'
 services:
   waha:
     image: devlikeapro/waha:latest
     container_name: wpp_bot_waha
+    environment:
+      - WAHA_WEBHOOK_URL=http://api:6000/chatbot/webhook
     restart: always
+
     ports:
-      - '4000:4000'
+      - '3000:3000'
 
   api:
     build:
@@ -14,6 +16,6 @@ services:
     container_name: wpp_bot_api
     ports:
       - '6000:6000'
-    # volumes:
-    #   - .:/app
-    #   - ./chroma_data:/app/chroma_data
+    volumes:
+      - .:/app
+      - ./chroma_data:/app/chroma_data
